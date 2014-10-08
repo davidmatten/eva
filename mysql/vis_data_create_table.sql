@@ -1,0 +1,11 @@
+CREATE TABLE vis_data (
+id INT NOT NULL AUTO_INCREMENT,
+merge_no VARCHAR(255) NULL,
+patient VARCHAR(255) NULL,
+cohort VARCHAR(255) NULL,
+visit_dmy VARCHAR(255) NULL,
+weight VARCHAR(255) NULL,
+height VARCHAR(255) NULL,
+PRIMARY KEY (id)
+);
+
